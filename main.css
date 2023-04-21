@@ -6,12 +6,23 @@
     box-sizing: border-box;
 }
 
+body {
+    
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./imagens/Fundo\ 2.png');
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
 /* Estilo 2 */
 
 header {
     padding: 16px 0;
-    background-color: #F52058;
-    color: #6CF52C;
+    background-color: #B421E8;
+    color: #F4AC24;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* Estilo 3 */
@@ -19,13 +30,13 @@ header {
 header nav li {
     display: inline;
     margin-left: 16px;
-    font-size: 24px;
+    font-size: 16px;
 }
 
 header nav li a {
     display: inline;
     margin-left: 16px;
-    color: #6CF52C;
+    color: #FFFFFF;
     text-decoration: none;
 }
 
@@ -57,12 +68,12 @@ section .container {
 /* Estilo 7 */
 
 .brands-list img {
-    height: 24px;
+    height: 39px;
 }
 
 .brands-list li {
     display: inline;
-    margin-right: 8px;
+    margin-right: 30px;
 }
 
 /* Estilo 8 */
@@ -76,17 +87,25 @@ section {
 }
 
 section h2 {
-    margin-bottom: 16px;
+    padding: 200px 0;
+    margin-bottom: -190px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 section {
-    color: #A80D37
+    color: #FFFFFF
+}
+
+section h2 {
+    color: #B421E8;
 }
 
 section p {
-    margin-bottom: 8px;
+    margin-bottom: 40px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .store-front {
-    margin-right: 32px;
+    margin-right: 16px;
+    height: 500px;
 }
