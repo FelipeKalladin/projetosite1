@@ -18,14 +18,14 @@ header {
 
 header nav li {
     display: inline;
-    margin: left: 16px;
+    margin-left: 16px;
     font-size: 24px;
 }
 
 header nav li a {
     display: inline;
-    margin: left: 16px;
-    color: white;
+    margin-left: 16px;
+    color: #6CF52C;
     text-decoration: none;
 }
 
